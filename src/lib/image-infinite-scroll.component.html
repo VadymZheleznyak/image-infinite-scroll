@@ -1,0 +1,11 @@
+<div class="div-select" id="div-select">
+  <div style="display: inline" id="content">
+    <div *ngIf="imagesModels.length">
+      <div style="display: inline" id="left-Div"></div>
+        <div *ngFor="let image of imagesModels; trackBy: trackByFn;" class="div-select-option">
+          <img style="width: 80px; height: 80px;" [src]="imageTransform(image.Value)">
+        </div>
+      <div style="display: inline" id="right-Div"></div>
+    </div>
+  </div>
+</div>

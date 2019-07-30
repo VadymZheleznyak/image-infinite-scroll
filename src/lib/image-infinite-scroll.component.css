@@ -1,0 +1,23 @@
+.div-select-option{
+    max-height: 48px;
+    display: inline;
+    padding-right: 10px;
+}
+
+.div-select-open{
+    max-width: 300px;
+    width: 300px;
+    max-height: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.div-select{
+    max-height: 7rem;
+    height: 7rem;
+    white-space: nowrap;
+    max-width: 28rem;
+    width: 28rem;
+    overflow: scroll;
+    overflow-y: hidden;
+}
